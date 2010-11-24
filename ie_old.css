@@ -1,0 +1,21 @@
+body {
+	background: url(images/noise.png) repeat;
+}
+
+embed, #header, #nav {
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#ffffff', Direction=180, Strength=1);
+}
+
+#header h1 {
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color='#ffffff', Direction=180, Strength=2);
+}
+
+#ie {
+	width: 640px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding: 2px;
+	font-family: Arial;
+	font-size: 0.8em;
+}

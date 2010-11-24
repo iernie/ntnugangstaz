@@ -1,16 +1,16 @@
 @font-face {
-	font-family: Lobster;
-	src: url(fonts/Lobster.otf);
+	font-family: 'Lobster';
+	src: url('fonts/Lobster.otf');
 }
 
 @font-face {
-	font-family: Sans;
-	src: url(fonts/Sans_R.ttf);
+	font-family: 'Sans_R';
+	src: url('fonts/Sans_R.ttf');
 }
 
 @font-face {
-	font-family: Sans_NB;
-	src: url(fonts/Sans_NB.ttf);
+	font-family: 'Sans_NB';
+	src: url('fonts/Sans_NB.ttf');
 }
 
 * {
@@ -49,6 +49,8 @@ body {
 #header {
 	border-bottom: 1px solid #8c8a84;
 	padding: 10px 0 20px 0;
+	-moz-box-shadow: #fff 0 1px 0;
+	-webkit-box-shadow: #fff 0 1px 0;
 	box-shadow: #fff 0 1px 0;
 	font-family: Lobster, Arial;
 }
@@ -82,25 +84,9 @@ object, embed {
 
 embed {
 	border-bottom: 1px solid #8c8a84;
+	-moz-box-shadow: #fff 0 1px 0;
+	-webkit-box-shadow: #fff 0 1px 0;
 	box-shadow: #fff 0 1px 0;
 	padding: 5px 0 15px 0;
 	margin: 5px 0;
 }
-
-/* IE */
-
-#ie {
-	width: 640px;
-	margin: 0 auto;
-	text-align: left;
-	color: #fff;
-	padding: 2px;
-	font-family: Arial;
-	font-size: 0.8em;
-}
-
-
-
-
-
-

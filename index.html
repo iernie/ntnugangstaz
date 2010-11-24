@@ -5,12 +5,18 @@
 		<meta charset='UTF-8'>
 		<link rel="icon" href="favicon.ico" type="image/ico">
 		<link rel="stylesheet" href="styles.css" type="text/css">
+		<!--[if IE]>
+			<link rel="stylesheet" href="ie.css" type="text/css">
+		<![endif]-->
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" href="ie_old.css" type="text/css">
+		<![endif]-->
 	</head>
 	<body>	
 		<div id="bar">
-				<!--[if IE]>
+				<!--[if lte IE 8]>
 				<div id="ie">
-					Sorry, but you are using a browser that currently doesn't support CSS3/HTML5. Try another browser.
+					Warning! You are using a browser with reduced CSS3 functionality.
 				</div>
 				<![endif]-->
 			</div>
