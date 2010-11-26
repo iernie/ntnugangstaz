@@ -29,7 +29,7 @@ a:hover {
 
 body {
 	background: url(images/bg_gradient.png) top repeat-x, url(images/noise.png) repeat;
-	font-family: Sans, Arial;
+	font-family: Sans_R, Arial;
 	text-shadow: #fff 0 1px 0;
 	color: #32312e;
 }
@@ -71,6 +71,10 @@ body {
 	font-family: Lobster, Arial;
 }
 
+#toggleButton {
+	cursor: pointer;
+}
+
 #footer {
 	font-size: 0.8em;
 	margin: 0 0 10px 0;
@@ -82,7 +86,7 @@ object, embed {
 	height: 505px !important;
 }
 
-embed {
+embed, #toggleButton {
 	border-bottom: 1px solid #8c8a84;
 	-moz-box-shadow: #fff 0 1px 0;
 	-webkit-box-shadow: #fff 0 1px 0;
