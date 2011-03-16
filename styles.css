@@ -11,11 +11,11 @@
 
 @font-face {
     font-family: 'Sans_NB';
-    src: url('sans_nb-webfont.eot');
-    src: url('sans_nb-webfont.eot?iefix') format('eot'),
-         url('sans_nb-webfont.woff') format('woff'),
-         url('sans_nb-webfont.ttf') format('truetype'),
-         url('sans_nb-webfont.svg#webfontJYEotruo') format('svg');
+    src: url('fonts/sans_nb-webfont.eot');
+    src: url('fonts/sans_nb-webfont.eot?iefix') format('eot'),
+         url('fonts/sans_nb-webfont.woff') format('woff'),
+         url('fonts/sans_nb-webfont.ttf') format('truetype'),
+         url('fonts/sans_nb-webfont.svg#webfontJYEotruo') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -23,11 +23,11 @@
 
 @font-face {
     font-family: 'Sans_R';
-    src: url('sans_r-webfont.eot');
-    src: url('sans_r-webfont.eot?iefix') format('eot'),
-         url('sans_r-webfont.woff') format('woff'),
-         url('sans_r-webfont.ttf') format('truetype'),
-         url('sans_r-webfont.svg#webfontg6LLDDDQ') format('svg');
+    src: url('fonts/sans_r-webfont.eot');
+    src: url('fonts/sans_r-webfont.eot?iefix') format('eot'),
+         url('fonts/sans_r-webfont.woff') format('woff'),
+         url('fonts/sans_r-webfont.ttf') format('truetype'),
+         url('fonts/sans_r-webfont.svg#webfontg6LLDDDQ') format('svg');
     font-weight: normal;
     font-style: normal;
 
